@@ -1,23 +1,23 @@
 def add(a,b):
     answer = a+b
-    print(f"Your answer is:  {answer}" + " /n")
-
+    print(f"Your answer is:  {answer}")
+    print()
 def sub(a,b):
     answer = a - b
-    print(f"Your answer is:  {answer}" +" /n")
-       
+    print(f"Your answer is:  {answer}")
+    print()   
 def multi(a,b):
     answer = a*b
-    print(f"Your answer is:  {answer}" +" /n")
-    
+    print(f"Your answer is:  {answer}")
+    print()
 def div(a,b):
     answer = a/b
-    print(f"Your answer is:  {answer}" +" /n") 
-    
+    print(f"Your answer is:  {answer}") 
+    print()
 def mod(a,b):
     answer = a%b
-    print(f"Your answer is:  {answer}" +" /n")
- 
+    print(f"Your answer is:  {answer}")
+    print()
 while True:
     print("A for addition")
     print("B for substraction")
